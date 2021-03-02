@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+   <!-- 这是 Spring Boot 的父级依赖，这样当前的项目就是 Spring Boot 项目了。spring-boot-starter-parent 是一个特殊的 starter，它用来提供相关的 Maven 默认依赖。
+
+    使用它之后，常用的包依赖可以省去 version 标签，当我们搭建web应用的时候，可以像下面这样添加spring-boot-starter-web依赖：
+
+    Quartz定时任务
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-quartz</artifactId>
+    </dependency>-->
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.2.RELEASE</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.pril</groupId>
+    <artifactId>pril_blog</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+
+    <modules>
+        <module>pril_xo</module>
+        <module>pril_admin</module>
+        <module>pril_common</module>
+    </modules>
+
+
+    <packaging>pom</packaging>
+    <description>pril_blog</description>
+
+
+    <properties>
+        <swagger.version>2.6.1</swagger.version>
+        <swagger.ui.version>2.6.1</swagger.ui.version>
+        <log4j.version>1.2.17</log4j.version>
+        <eureka.version>1.2.3.RELEASE</eureka.version>
+        <java.version>1.8</java.version>
+        <lombok.version>1.18.10</lombok.version>
+        <junit.version>4.13</junit.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+
+
+</project>

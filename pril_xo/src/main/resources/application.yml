@@ -1,0 +1,25 @@
+spring:
+# DATABASE CONFIG
+  datasource:
+    username: root
+    password: 123456qwe
+    url: jdbc:mysql://localhost:3306/pril_blog?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&useSSL=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+    #devtools:
+      #restart:
+      #enabled: true
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+# ===== 自定义swagger配置 ===== #
+swagger:
+  enable: true
+  application-name: ${spring.application.name}
+  application-version: 1.0
+  application-description: springfox swagger 3.0整合Demo
+  try-host: http://localhost:${server.port}
+
+

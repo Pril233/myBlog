@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pril_admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pril_base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pril_common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pril_xo" charset="UTF-8" />
+  </component>
+</project>
