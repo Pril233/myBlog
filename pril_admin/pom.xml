@@ -15,6 +15,20 @@
     <description>pril_admin</description>
 
     <dependencies>
+        <!--pril_util-->
+        <dependency>
+            <groupId>com.pril</groupId>
+            <artifactId>pril_common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <!--pril_xo-->
+        <dependency>
+            <groupId>com.pril</groupId>
+            <artifactId>pril_xo</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
 
         <!--swagger-->
         <dependency>
@@ -28,6 +42,7 @@
             <artifactId>springfox-swagger-ui</artifactId>
             <version>${swagger.ui.version}</version>
         </dependency>
+
     </dependencies>
 
     <build>

@@ -1,11 +1,11 @@
 package com.pril_xo.entity;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-import com.pril_common.vo.BaseVO;
-import lombok.Data;
-import org.springframework.format.annotation.DateTimeFormat;
+        import com.fasterxml.jackson.annotation.JsonFormat;
+        import com.pril_base.vo.BaseVO;
+        import lombok.Data;
+        import org.springframework.format.annotation.DateTimeFormat;
 
-import java.util.Date;
+        import java.util.Date;
 
 /**
  * AdminVO

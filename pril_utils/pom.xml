@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.pril</groupId>
+        <artifactId>pril_blog</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <groupId>com.pril</groupId>
+    <artifactId>pril_utils</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>pril_utils</name>
+    <description>是常用工具类</description>
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+    <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>${mybatis.plus.boot.starter.version}</version>
+        </dependency>
+
+        <!-- spring data redis -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.dyuproject.protostuff/protostuff-core -->
+        <!-- 序列化相关-->
+        <dependency>
+            <groupId>com.dyuproject.protostuff</groupId>
+            <artifactId>protostuff-core</artifactId>
+            <version>${dyuproject.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.dyuproject.protostuff</groupId>
+            <artifactId>protostuff-runtime</artifactId>
+            <version>${dyuproject.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+        <!--Spring Boot Actuator:健康检查、审计、统计和监控 - 简书-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+
+        <!--引入httpSeverletRequest等等-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <!-- 如果在使用自带tomcat请注释下面，如果使用第三方tomcat不要注释下面 -->
+            <!--  <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                </exclusion>
+            </exclusions> -->
+        </dependency>
+
+        <!--GSON 是 Google 提供的用来在 Java 对象和 JSON 数据之间进行映射的 Java 类库，
+        可以快速的将一个 Json 字符转成一个 Java 对象，
+        或者将一个 Java 对象转化为 Json 字符串。-->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>${google.code.gson.version}</version>
+        </dependency>
+
+        <!-- 引入lombok  （Slf4j）-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
