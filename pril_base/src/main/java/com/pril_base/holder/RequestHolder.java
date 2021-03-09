@@ -1,10 +1,15 @@
 package com.pril_base.holder;
 
-import com.moxi.mogublog.utils.StringUtils;
+/*import com.moxi.mogublog.utils.StringUtils;
 import com.moxi.mougblog.base.exception.exceptionType.QueryException;
 import com.moxi.mougblog.base.global.BaseMessageConf;
 import com.moxi.mougblog.base.global.BaseSysConf;
-import com.moxi.mougblog.base.global.ErrorCode;
+import com.moxi.mougblog.base.global.ErrorCode;*/
+import com.pril_base.exception.exceptionType.QueryException;
+import com.pril_base.global.BaseMessageConf;
+import com.pril_base.global.BaseSysConf;
+import com.pril_base.global.ErrorCode;
+import com.pril_utils.utils.StringUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;

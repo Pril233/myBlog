@@ -1,11 +1,12 @@
-package com.pril_xo.entity;
+package com.pril_xo.vo;
 
-        import com.fasterxml.jackson.annotation.JsonFormat;
-        import com.pril_base.vo.BaseVO;
-        import lombok.Data;
-        import org.springframework.format.annotation.DateTimeFormat;
+import com.fasterxml.jackson.annotation.JsonFormat;
+/*import com.moxi.mougblog.base.vo.BaseVO;*/
+import com.pril_base.vo.BaseVO;
+import lombok.Data;
+import org.springframework.format.annotation.DateTimeFormat;
 
-        import java.util.Date;
+import java.util.Date;
 
 /**
  * AdminVO
@@ -91,4 +92,19 @@ public class AdminVO extends BaseVO<AdminVO> {
      * gitee地址
      */
     private String gitee;
+
+    /**
+     * 角色Uid
+     */
+    private String roleUid;
+
+    /**
+     * 已用网盘容量
+     */
+    private Long storageSize;
+
+    /**
+     * 最大网盘容量
+     */
+    private Long maxStorageSize;
 }

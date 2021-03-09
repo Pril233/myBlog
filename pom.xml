@@ -52,6 +52,7 @@
         <dyuproject.version>1.1.5</dyuproject.version>
         <spring-cloud-alibaba.version>2.2.4.RELEASE</spring-cloud-alibaba.version>
         <google.code.gson.version>2.7</google.code.gson.version>
+        <ip2region.version>1.7.2</ip2region.version>
     </properties>
 
     <dependencyManagement>

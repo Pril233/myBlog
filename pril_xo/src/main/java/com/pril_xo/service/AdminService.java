@@ -5,7 +5,7 @@ package com.pril_xo.service;
 
 import com.pril_base.service.SuperService;
 import com.pril_common.entity.Admin;
-import com.pril_xo.entity.AdminVO;
+import com.pril_xo.vo.AdminVO;
 
 import java.util.List;
 
