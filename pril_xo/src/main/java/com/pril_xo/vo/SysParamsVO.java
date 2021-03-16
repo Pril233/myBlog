@@ -5,8 +5,10 @@ import com.moxi.mougblog.base.validator.annotion.NotBlank;
 import com.moxi.mougblog.base.validator.group.Insert;
 import com.moxi.mougblog.base.validator.group.Update;
 import com.moxi.mougblog.base.vo.BaseVO;*/
-import com.alibaba.druid.sql.visitor.functions.Insert;
+/*import com.alibaba.druid.sql.visitor.functions.Insert;*/
+
 import com.pril_base.validator.annotion.IntegerNotNull;
+import com.pril_base.validator.group.Insert;
 import com.pril_base.validator.group.Update;
 import com.pril_base.vo.BaseVO;
 import lombok.Data;

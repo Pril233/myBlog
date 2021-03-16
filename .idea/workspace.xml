@@ -4,21 +4,28 @@
     <list default="true" id="6e6a8f51-c25c-4509-bea8-74573bd11c95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/AdminRestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/AdminRestApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/holder/RequestHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/holder/RequestHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/validator/annotion/IdValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/validator/annotion/IdValid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/validator/annotion/IntegerNotNull.java" beforeDir="false" afterPath="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/validator/annotion/IntegerNotNull.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/validator/annotion/LongNotNull.java" beforeDir="false" afterPath="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/validator/annotion/LongNotNull.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/validator/constraint/IdValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/validator/constraint/IdValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pril_base/src/test/java/com/pril_base/PrilBaseApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pril_admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pril_admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/PrilAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/PrilAdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pril_admin/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pril_admin/src/test/java/com/pril_admin/PrilAdminApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pril_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pril_base/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pril_utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pril_utils/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pril_utils/src/main/java/com/pril_utils/utils/IpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/pril_utils/src/main/java/com/pril_utils/utils/IpUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pril_utils/src/main/java/com/pril_utils/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/pril_utils/src/main/java/com/pril_utils/utils/StringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pril_utils/src/test/java/com/pril_utils/PrilUtilsApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/entity/AdminVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/SystemConfigServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/SystemConfigServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pril_xo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pril_xo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/entity/PUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/generator/codeGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/global/MessageConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/global/MessageConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/global/RedisConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/global/RedisConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/global/SQLConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/global/SQLConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/global/SysConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/global/SysConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/mapper/PUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/PUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/BlogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/CommentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/PUserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/vo/SysParamsVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/vo/SysParamsVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pril_xo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pril_xo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pril_xo/src/test/java/com/pril_xo/api/TestTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,6 +39,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
@@ -53,22 +63,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/AdminRestApi.java">
+        <entry file="file://$PROJECT_DIR$/pril_admin/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="78" column="46" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/annotion/OperationLogger/OperationLogger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="92">
+              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -86,11 +84,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pril_xo</find>
-      <find>gc</find>
-      <find>table</find>
-      <find>baomidou</find>
-      <find>package</find>
       <find>getList</find>
       <find>RedisUtil</find>
       <find>StringUtil</find>
@@ -100,7 +93,31 @@
       <find>str</find>
       <find>Slf4j</find>
       <find>StringUtils</find>
+      <find>util</find>
+      <find>JSON</find>
+      <find>pictureFeignClient</find>
+      <find>BUTTON_LIST</find>
+      <find>vo</find>
+      <find>sentinel</find>
+      <find>jackson</find>
+      <find>user</find>
+      <find>baomidou</find>
+      <find>format</find>
+      <find>mybatis.plus.boot.starter.version</find>
+      <find>unauthorizedHandler</find>
+      <find>3.4.1</find>
+      <find>mybatis</find>
+      <find>com.moxi.mogublog.xo.mapper</find>
+      <find>nacos</find>
+      <find>datasource</find>
+      <find>com.moxi.mogublog.commons.entity.Admin</find>
+      <find>com.moxi.mogublog.commons.entity</find>
+      <find>data</find>
+      <find>data.web.url</find>
     </findStrings>
+    <replaceStrings>
+      <replace>com.pril_common.entity</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,57 +125,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/entity/SuperEntity.java" />
-        <option value="$PROJECT_DIR$/pril_common/src/main/java/com/pril_common/mybatis/MybatisPlusConfig.java" />
-        <option value="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/CommentService.java" />
-        <option value="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/mapper/CommentMapper.java" />
-        <option value="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/serviceImpl/SuperServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/vo/UserVO.java" />
-        <option value="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/UserService.java" />
-        <option value="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pril_common/src/main/java/com/pril_common/feign/FeignConfiguration.java" />
-        <option value="$PROJECT_DIR$/pril_common/src/main/java/com/pril_common/config/feign/FeignConfiguration.java" />
-        <option value="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/BlogServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/CommentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pril_common/src/main/java/com/pril_common/config/feign/FeignBasicAuthRequestInterceptor.java" />
-        <option value="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/global/Constants.java" />
-        <option value="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/enums/EFilePriority.java" />
-        <option value="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/SysParamsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/utils/WebUtil.java" />
-        <option value="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/vo/FileVO.java" />
-        <option value="$PROJECT_DIR$/pril_common/src/main/java/com/pril_common/fallback/PictureFeignFallback.java" />
-        <option value="$PROJECT_DIR$/pril_common/src/main/java/com/pril_common/feign/PictureFeignClient.java" />
-        <option value="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/vo/RoleVO.java" />
-        <option value="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/RoleService.java" />
-        <option value="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/mapper/RoleMapper.java" />
-        <option value="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/RoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pril_common/src/main/java/com/pril_common/entity/OnlineAdmin.java" />
-        <option value="$PROJECT_DIR$/pril_utils/src/main/java/com/pril_utils/utils/JsonUtils.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/annotion/OperationLogger/SysLogHandle.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/annotion/OperationLogger/LoggerAspect.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/annotion/AvoidRepeatableCommit/AvoidRepeatableCommitAspect.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/BlogRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/BlogSortRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/CommentRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/CreatCodeRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/FeedbackRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/IndexRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/LinkRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/LogRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/PictureRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/PictureSortRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/ResourceSortRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/RoleRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/SearchIndexRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/ServerMonitorRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/StudyVideoRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/SubjectItemRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/SubjectRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/SysDictDataRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/SysDictTypeRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/SysParamsRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/SystemConfigRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/SystemRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/TagRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/TodoRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/UserRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/WebConfigRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/WebNavbarRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/WebVisitRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/CategoryMenuRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/security/SecurityUserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/security/SecurityUserFactory.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/security/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/security/JwtAuthenticationEntryPoint.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/security/JwtAuthenticationTokenFilter.java" />
+        <option value="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/generator/codeGenerator.java" />
+        <option value="$PROJECT_DIR$/pril_common/src/main/java/com/pril_common/config/mybatis/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/PrilAdminApplication.java" />
         <option value="$PROJECT_DIR$/pril_base/pom.xml" />
-        <option value="$PROJECT_DIR$/pril_utils/pom.xml" />
+        <option value="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/vo/SysParamsVO.java" />
+        <option value="$PROJECT_DIR$/pril_xo/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/pril_utils/src/main/java/com/pril_utils/utils/IpUtils.java" />
-        <option value="$PROJECT_DIR$/pril_utils/src/main/java/com/pril_utils/utils/DateUtils.java" />
-        <option value="$PROJECT_DIR$/pril_common/src/main/java/com/pril_common/entity/Storage.java" />
-        <option value="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/vo/AdminVO.java" />
-        <option value="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/AdminServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pril_utils/src/main/java/com/pril_utils/utils/StringUtils.java" />
-        <option value="$PROJECT_DIR$/pril_utils/src/main/java/com/pril_utils/utils/SnowflakeIdWorker.java" />
-        <option value="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/AdminService.java" />
-        <option value="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/enums/EOpenStatus.java" />
-        <option value="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/SystemConfigServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/annotion/AuthorityVerify/AuthorityVerify.java" />
-        <option value="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/holder/RequestHolder.java" />
-        <option value="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/validator/annotion/IntegerNotNull.java" />
-        <option value="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/validator/annotion/LongNotNull.java" />
-        <option value="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/validator/constraint/IdValidator.java" />
-        <option value="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/validator/annotion/IdValid.java" />
-        <option value="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/exception/exceptionType/ApiInvalidParamException.java" />
-        <option value="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/exception/ThrowableUtils.java" />
-        <option value="$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/enums/PlatformEnum.java" />
-        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/annotion/OperationLogger/OperationLogger.java" />
-        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/AdminRestApi.java" />
+        <option value="$PROJECT_DIR$/pril_utils/pom.xml" />
+        <option value="$PROJECT_DIR$/pril_admin/pom.xml" />
+        <option value="$PROJECT_DIR$/pril_xo/src/main/resources/mapper/AdminMapper.xml" />
+        <option value="$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/LinkServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/config/GlobalExceptionConfig.java" />
+        <option value="$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/config/DruidConfig.java" />
       </list>
     </option>
   </component>
@@ -184,6 +201,17 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="pril_admin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="pril_admin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.pril:pril_common:0.0.1-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="pril_base" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -191,15 +219,51 @@
           <item name="pril_base" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="pril_common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="pril_common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="pril_common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.pril:pril_base:0.0.1-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="pril_utils" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="pril_utils" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="pril_xo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="pril_xo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
-    <option name="y" value="7" />
-    <option name="width" value="1903" />
-    <option name="height" value="984" />
+    <option name="x" value="1" />
+    <option name="y" value="17" />
+    <option name="width" value="1923" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -214,6 +278,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,11 +286,321 @@
               <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_admin" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_common" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_common" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_xo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_xo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_xo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_xo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_xo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_xo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_xo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_xo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_xo" type="462c0819:PsiDirectoryNode" />
+              <item name="Config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_xo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_xo" type="462c0819:PsiDirectoryNode" />
+              <item name="global" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_xo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_xo" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_xo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_xo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_xo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_xo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_xo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_xo" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_xo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pril_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pril_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pril_xo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,7 +610,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615262205318" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615866650649" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -245,7 +620,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -259,18 +634,18 @@
       <recent name="E:\project\blog\pril_blog\pril_xo\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.pril_base.enums" />
-      <recent name="com.pril_admin.annotion.OperationLogger" />
-      <recent name="com.pril_base.exception.exceptionType" />
-      <recent name="com.pril_base.exception" />
-      <recent name="com.pril_admin.restapi" />
+      <recent name="com.pril_admin.annotion.AuthorityVerify" />
+      <recent name="com.pril_common.feign" />
+      <recent name="com.pril_xo.utils" />
+      <recent name="com.pril_common.fallback" />
+      <recent name="com.pril_base.validator" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\project\blog\pril_blog\pril_admin\src\main\java\com\pril_admin\annotion\AuthorityVerify" />
-      <recent name="E:\project\blog\pril_blog\pril_common\src\main\java\com\pril_common" />
-      <recent name="E:\project\blog\pril_blog\pril_base\src\main\java\com\pril_base" />
-      <recent name="E:\project\blog\pril_blog\pril_common\src\main\java\com\pril_common\validator\annotion" />
-      <recent name="E:\project\blog\pril_blog\pril_common\src\main\java\com\pril_common\validator\group" />
+      <recent name="E:\project\blog\pril_blog\pril_admin\src\main\java\com\pril_admin" />
+      <recent name="E:\project\blog\pril_blog\pril_admin\src\main\resources" />
+      <recent name="E:\project\blog\pril_blog\pril_xo\src\main\resources" />
+      <recent name="E:\project\blog\pril_blog\pril_admin\src\main\java\com\pril_admin\annotion" />
+      <recent name="E:\project\blog\pril_blog\pril_admin\src\main\java\com\pril_admin\annotion\OperationLogger" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.pril_common.utils" />
@@ -292,9 +667,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.24167988" />
+    <option name="contentProportion" value="0.11157025" />
   </component>
-  <component name="RunManager" selected="Spring Boot.PrilXoApplication">
+  <component name="RunManager" selected="Spring Boot.PrilAdminApplication">
     <configuration name="TestTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pril_xo.api.TestTest" />
       <module name="pril_xo" />
@@ -453,7 +828,11 @@
       <workItem from="1610886001174" duration="1057000" />
       <workItem from="1610934342381" duration="13000" />
       <workItem from="1614908161359" duration="49897000" />
-      <workItem from="1615175605067" duration="16079000" />
+      <workItem from="1615175605067" duration="21317000" />
+      <workItem from="1615307392880" duration="1784000" />
+      <workItem from="1615348883188" duration="1831000" />
+      <workItem from="1615370224334" duration="24113000" />
+      <workItem from="1615606563692" duration="42742000" />
     </task>
     <servers />
   </component>
@@ -475,7 +854,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144093000" />
+    <option name="totallyTimeSpent" value="219801000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -487,10 +866,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="6" width="1522" height="787" extended-state="0" />
+    <frame x="1" y="14" width="1538" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2602459" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29527026" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -499,32 +878,32 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.17709924" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.04601227" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.6443719" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.32956153" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32626426" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.09915014" />
-      <window_info anchor="bottom" id="Problems" order="16" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32822084" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32822084" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5006757" side_tool="true" weight="0.36349693" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3297546" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3297546" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3297546" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32515338" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49932432" visible="true" weight="0.15644172" />
+      <window_info anchor="bottom" id="Problems" order="16" weight="0.3297546" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.4262295" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.35675675" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32908848" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32972974" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,319 +914,81 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/mapper/CommentMapper.java">
+    <entry file="file://$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/security/JwtAuthenticationEntryPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        <state relative-caret-position="139">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/CommentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-992">
-          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/BlogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-692">
-          <caret line="59" column="14" lean-forward="true" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_common/src/main/java/com/pril_common/config/feign/FeignConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/global/Constants.java">
+    <entry file="jar://D:/tool/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar!/org/springframework/boot/web/servlet/FilterRegistrationBean.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pril_common/src/main/java/com/pril_common/config/feign/FeignBasicAuthRequestInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/security/JwtAuthenticationTokenFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1127">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="-1151">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/global/RedisConf.java">
+    <entry file="jar://D:/tool/repository/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE.jar!/org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="207">
+          <caret line="66" column="103" selection-start-line="66" selection-start-column="103" selection-end-line="66" selection-end-column="103" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/enums/EFilePriority.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/controller/PUserController.java">
+    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/generator/codeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+        <state relative-caret-position="-1410">
+          <caret line="19" column="62" lean-forward="true" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/utils/ResultBean.java">
+    <entry file="file://$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/FeedbackRestApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+        <state relative-caret-position="207">
+          <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/utils/StringUtils.java">
+    <entry file="file://$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/CategoryMenuRestApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/SysParamsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/vo/FileVO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_common/src/main/java/com/pril_common/feign/PictureFeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        <state relative-caret-position="307">
+          <caret line="93" column="4" lean-forward="true" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pril_common/src/main/java/com/pril_common/fallback/PictureFeignFallback.java">
+    <entry file="file://$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/security/SecurityUserFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        <state relative-caret-position="179">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/utils/WebUtil.java">
+    <entry file="file://$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/security/SecurityUserDetailsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/vo/RoleVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/mapper/RoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/RoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="63" column="60" selection-start-line="63" selection-start-column="60" selection-end-line="63" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_common/src/main/java/com/pril_common/entity/OnlineAdmin.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_utils/src/main/java/com/pril_utils/utils/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9690">
-          <caret line="323" lean-forward="true" selection-start-line="323" selection-end-line="323" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-544" />
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="jar://D:/tool/repository/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar!/lombok/extern/slf4j/Slf4j.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_utils/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="88" column="36" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_utils/src/main/java/com/pril_utils/utils/IpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_utils/src/main/java/com/pril_utils/utils/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18638">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_common/src/main/java/com/pril_common/entity/Storage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/entity/AdminVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/vo/AdminVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tool/repository/org/springframework/security/spring-security-crypto/5.2.1.RELEASE/spring-security-crypto-5.2.1.RELEASE.jar!/org/springframework/security/crypto/password/PasswordEncoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_utils/src/main/java/com/pril_utils/utils/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="314" column="5" selection-start-line="314" selection-start-column="5" selection-end-line="314" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/enums/EOpenStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/SystemConfigServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="73" column="73" lean-forward="true" selection-start-line="73" selection-start-column="73" selection-end-line="73" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_utils/src/test/java/com/pril_utils/PrilUtilsApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="479">
+          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -856,7 +997,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/annotion/AuthorityVerify/AuthorityVerify.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
+        <state relative-caret-position="383">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/BlogRestApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/AdminRestApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/mapper/BlogMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/mapper/BlogSortMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/mapper/CategoryMenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/mapper/AdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/mapper/ExceptionLogMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_common/src/main/java/com/pril_common/config/mybatis/MetaObjectHandlerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-379">
           <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -864,102 +1070,241 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pril_common/src/main/java/com/pril_common/config/mybatis/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="65" column="15" lean-forward="true" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tool/repository/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tool/repository/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar!/org/springframework/boot/autoconfigure/security/servlet/UserDetailsServiceAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/AdminServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2090">
-          <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-659">
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/holder/RequestHolder.java">
+    <entry file="jar://D:/tool/repository/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="168" column="5" lean-forward="true" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="107">
+          <caret line="85" column="25" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/validator/annotion/IntegerNotNull.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/pril_admin/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/validator/annotion/LongNotNull.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/validator/constraint/IdValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/validator/annotion/IdValid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1148">
-          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/exception/exceptionType/ApiInvalidParamException.java">
+    <entry file="file://$PROJECT_DIR$/pril_common/src/main/java/com/pril_common/PrilCommonApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/exception/ThrowableUtils.java">
+    <entry file="file://$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/PrilAdminApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        <state relative-caret-position="-120">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pril_utils/src/main/java/com/pril_utils/utils/SnowflakeIdWorker.java">
+    <entry file="file://$PROJECT_DIR$/pril_common/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-870">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        <state relative-caret-position="141">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pril_base/src/main/java/com/pril_base/enums/PlatformEnum.java">
+    <entry file="file://$PROJECT_DIR$/pril_base/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        <state relative-caret-position="62">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/annotion/OperationLogger/OperationLogger.java">
+    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/vo/SysParamsVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/restapi/AdminRestApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="78" column="46" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
+        <state relative-caret-position="129">
+          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_common/src/main/java/com/pril_common/config/durid/DruidConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tool/repository/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_xo/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-401">
+          <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_utils/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="165" column="20" selection-start-line="165" selection-start-column="20" selection-end-line="165" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_admin/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-678">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/resources/mapper/AdminMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_common/src/main/java/com/pril_common/config/mybatis/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/vo/ResourceSortVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_admin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_admin/pril_admin.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/WebVisitServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/utils/RabbitMqUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/config/GlobalExceptionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-177">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/config/Swagger3Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/config/RabbitMqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/config/DruidConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1380">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/service/impl/LinkServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="185" column="9" lean-forward="true" selection-start-line="185" selection-start-column="9" selection-end-line="185" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_admin/src/main/java/com/pril_admin/security/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_xo/src/main/java/com/pril_xo/utils/WebUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="70" column="18" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="18" />
+          <caret line="69" column="18" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pril_admin/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1020,7 +1365,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1044,7 +1388,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.49770114" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

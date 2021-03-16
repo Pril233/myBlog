@@ -29,12 +29,13 @@
             <artifactId>springfox-boot-starter</artifactId>
             <version>3.0.0</version>
         </dependency>
-        <dependency>
+
+        <!--<dependency>
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper</artifactId>
             <version>5.2.0</version>
             <scope>compile</scope>
-        </dependency>
+        </dependency>-->
 
         <!-- sfl4j -->
         <dependency>

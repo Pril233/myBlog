@@ -1,6 +1,8 @@
 package com.pril_xo.global;
 
-/*import com.moxi.mougblog.base.global.BaseMessageConf;*/
+/*
+import com.moxi.mougblog.base.global.BaseMessageConf;
+*/
 
 import com.pril_base.global.BaseMessageConf;
 

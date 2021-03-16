@@ -1,6 +1,9 @@
 package com.pril_xo.global;
 
-//import com.moxi.mougblog.base.global.BaseRedisConf;
+/*
+import com.moxi.mougblog.base.global.BaseRedisConf;
+*/
+
 import com.pril_base.global.BaseRedisConf;
 
 /**

@@ -1,6 +1,8 @@
 package com.pril_xo.global;
 
-/*import com.moxi.mougblog.base.global.BaseSQLConf;*/
+/*
+import com.moxi.mougblog.base.global.BaseSQLConf;
+*/
 
 import com.pril_base.global.BaseSQLConf;
 
