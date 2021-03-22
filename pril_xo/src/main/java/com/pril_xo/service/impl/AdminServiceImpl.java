@@ -154,9 +154,12 @@ public class AdminServiceImpl extends SuperServiceImpl<AdminMapper, Admin> imple
         return admin;
     }
 
+    /*接收登录接口传入的用户admin和签证到期时间，增加redis在线admin*/
     @Override
     public void addOnlineAdmin(Admin admin, Long expirationSecond) {
+        /*获取当前线程请求*/
         HttpServletRequest request = RequestHolder.getRequest();
+        /*获取操作系统,浏览器及浏览器版本信息*/
         Map<String, String> map = IpUtils.getOsAndBrowserInfo(request);
         String os = map.get(SysConf.OS);
         String browser = map.get(SysConf.BROWSER);
@@ -172,7 +175,8 @@ public class AdminServiceImpl extends SuperServiceImpl<AdminMapper, Admin> imple
         onlineAdmin.setRoleName(admin.getRole().getRoleName());
         onlineAdmin.setUserName(admin.getUserName());
         onlineAdmin.setExpireTime(DateUtils.getDateStr(new Date(), expirationSecond));
-        //从Redis中获取IP来源
+        //从Redis中获取IP来源（登陆地址如佛山）
+        /*ipsource：ip*/
         String jsonResult = redisUtil.get(RedisConf.IP_SOURCE + Constants.SYMBOL_COLON + ip);
         if (StringUtils.isEmpty(jsonResult)) {
             String addresses = IpUtils.getAddresses(SysConf.IP + SysConf.EQUAL_TO + ip, SysConf.UTF_8);
@@ -181,6 +185,7 @@ public class AdminServiceImpl extends SuperServiceImpl<AdminMapper, Admin> imple
                 redisUtil.setEx(RedisConf.IP_SOURCE + Constants.SYMBOL_COLON + ip, addresses, 24, TimeUnit.HOURS);
             }
         } else {
+            //设置登录地址
             onlineAdmin.setLoginLocation(jsonResult);
         }
         // 将登录的管理员存储到在线用户表

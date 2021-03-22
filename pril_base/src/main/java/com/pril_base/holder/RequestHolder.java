@@ -35,6 +35,7 @@ public class RequestHolder {
      */
     public static HttpServletRequest getRequest() {
         log.debug("getRequest -- Thread id :{}, name : {}", Thread.currentThread().getId(), Thread.currentThread().getName());
+        /*获取当前Request实例*/
         ServletRequestAttributes servletRequestAttributes = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes());
         if (null == servletRequestAttributes) {
             return null;

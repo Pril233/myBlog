@@ -32,6 +32,8 @@
         <module>pril_common</module>
         <module>pril_base</module>
         <module>pril_utils</module>
+        <module>pril_sms</module>
+        <module>pril_gateway</module>
     </modules>
 
 
@@ -43,11 +45,11 @@
         <swagger.version>2.6.1</swagger.version>
         <swagger.ui.version>2.6.1</swagger.ui.version>
         <!--<swagger.starter.version>3.0.0</swagger.starter.version>-->
-        <!--<servlet.api.version>3.0-alpha-1</servlet.api.version>-->
+        <servlet.api.version>3.0-alpha-1</servlet.api.version>
         <!--<jackson.mapper.asl.version>1.9.13</jackson.mapper.asl.version>-->
         <!--<javax.mail.version>1.4</javax.mail.version>-->
-       <!-- <aliyun.java.sdk.dysmsapi.version>1.0.0</aliyun.java.sdk.dysmsapi.version>
-        <aliyun.java.sdk.core.version>3.2.5</aliyun.java.sdk.core.version>-->
+        <aliyun.java.sdk.dysmsapi.version>1.0.0</aliyun.java.sdk.dysmsapi.version>
+        <aliyun.java.sdk.core.version>3.2.5</aliyun.java.sdk.core.version>
         <druid.version>1.1.8</druid.version>
         <!--<eureka.version>1.2.3.RELEASE</eureka.version>-->
         <!--<startFeign.version>1.4.7.RELEASE</startFeign.version>-->
@@ -59,7 +61,7 @@
         <!--<jaxb.version>2.3.0</jaxb.version>-->
         <!--<minio.version>7.1.4</minio.version>-->
         <!--<spring.mock.version>2.0.8</spring.mock.version>-->
-        <!--<knife4j.version>3.0.2</knife4j.version>-->
+        <knife4j.version>3.0.2</knife4j.version>
         <!--<sentinel.version>2.1.0.RELEASE</sentinel.version>-->
 
         <log4j.version>1.2.17</log4j.version>

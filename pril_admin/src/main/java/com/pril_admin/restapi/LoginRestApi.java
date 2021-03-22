@@ -104,14 +104,18 @@ public class LoginRestApi {
         if (StringUtils.isEmpty(username) || StringUtils.isEmpty(password)) {
             return ResultUtil.result(SysConf.ERROR, "账号或密码不能为空");
         }
+        /*解析HttpRequest获取地址*/
         String ip = IpUtils.getIpAddr(request);
+        /*LOGIN_LIMIT：ip 获取当前ip申请登录次数*/
         String limitCount = redisUtil.get(RedisConf.LOGIN_LIMIT + RedisConf.SEGMENTATION + ip);
         if (StringUtils.isNotEmpty(limitCount)) {
             Integer tempLimitCount = Integer.valueOf(limitCount);
+            /*请求登录限制次数*/
             if (tempLimitCount >= Constants.NUM_FIVE) {
                 return ResultUtil.result(SysConf.ERROR, "密码输错次数过多,已被锁定30分钟");
             }
         }
+        /*检查username是email或手机或用户名*/
         Boolean isEmail = CheckUtils.checkEmail(username);
         Boolean isMobile = CheckUtils.checkMobileNumber(username);
         QueryWrapper<Admin> queryWrapper = new QueryWrapper<>();
@@ -122,9 +126,10 @@ public class LoginRestApi {
         } else {
             queryWrapper.eq(SQLConf.USER_NAME, username);
         }
+        /*根据username查询数据库*/
         Admin admin = adminService.getOne(queryWrapper);
         if (admin == null) {
-            // 设置错误登录次数
+            // 设置剩余登录次数
             return ResultUtil.result(SysConf.ERROR, String.format(MessageConf.LOGIN_ERROR, setLoginCommit(request)));
         }
         // 对密码进行加盐加密验证，采用SHA-256 + 随机盐【动态加盐】 + 密钥对密码进行加密
@@ -134,19 +139,26 @@ public class LoginRestApi {
             //密码错误，返回提示
             return ResultUtil.result(SysConf.ERROR, String.format(MessageConf.LOGIN_ERROR, setLoginCommit(request)));
         }
+        /*获取uid*/
         List<String> roleUids = new ArrayList<>();
         roleUids.add(admin.getRoleUid());
+        /*根据uid获取角色*/
         List<Role> roles = (List<Role>) roleService.listByIds(roleUids);
 
+        /*无角色*/
         if (roles.size() <= 0) {
             return ResultUtil.result(SysConf.ERROR, MessageConf.NO_ROLE);
         }
         String roleNames = null;
         for (Role role : roles) {
+            /*rolename+，*/
             roleNames += (role.getRoleName() + Constants.SYMBOL_COMMA);
         }
+        /*去掉最后一个逗号*/
         String roleName = roleNames.substring(0, roleNames.length() - 2);
+        /**/
         long expiration = isRememberMe ? isRememberMeExpiresSecond : audience.getExpiresSecond();
+        /*生成token*/
         String jwtToken = jwtTokenUtil.createJWT(admin.getUserName(),
                 admin.getUid(),
                 roleName,
@@ -154,14 +166,18 @@ public class LoginRestApi {
                 audience.getName(),
                 expiration * 1000,
                 audience.getBase64Secret());
+        /*tokenhead为常量*/
         String token = tokenHead + jwtToken;
         Map<String, Object> result = new HashMap<>(Constants.NUM_ONE);
         result.put(SysConf.TOKEN, token);
 
         //进行登录相关操作
+        /*登录次数*/
         Integer count = admin.getLoginCount() + 1;
         admin.setLoginCount(count);
+        /*登陆ip*/
         admin.setLastLoginIp(IpUtils.getIpAddr(request));
+        /*登陆时间*/
         admin.setLastLoginTime(new Date());
         admin.updateById();
         // 设置token到validCode，用于记录登录用户
@@ -314,16 +330,22 @@ public class LoginRestApi {
      */
     private Integer setLoginCommit(HttpServletRequest request) {
         String ip = IpUtils.getIpAddr(request);
+        /*key*/
         String count = redisUtil.get(RedisConf.LOGIN_LIMIT + RedisConf.SEGMENTATION + ip);
+        /*剩余限制登录次数为5*/
         Integer surplusCount = 5;
+        /*非第一次登录*/
         if (StringUtils.isNotEmpty(count)) {
             Integer countTemp = Integer.valueOf(count) + 1;
             surplusCount = surplusCount - countTemp;
             redisUtil.setEx(RedisConf.LOGIN_LIMIT + RedisConf.SEGMENTATION + ip, String.valueOf(countTemp), 10, TimeUnit.MINUTES);
-        } else {
+        }
+        /*第一次登录*/
+        else {
             surplusCount = surplusCount - 1;
             redisUtil.setEx(RedisConf.LOGIN_LIMIT + RedisConf.SEGMENTATION + ip, "1", 30, TimeUnit.MINUTES);
         }
+        /*返回剩余登录次数*/
         return surplusCount;
     }
 

@@ -10,6 +10,8 @@
         <module name="pril_admin" />
         <module name="pril_base" />
         <module name="pril_common" />
+        <module name="pril_gateway" />
+        <module name="pril_sms" />
         <module name="pril_utils" />
         <module name="pril_xo" />
       </profile>
@@ -17,10 +19,13 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
       <module name="pril_admin" options="-parameters" />
       <module name="pril_base" options="-parameters" />
       <module name="pril_blog" options="-parameters" />
       <module name="pril_common" options="-parameters" />
+      <module name="pril_gateway" options="-parameters" />
+      <module name="pril_sms" options="-parameters" />
       <module name="pril_utils" options="-parameters" />
       <module name="pril_xo" options="-parameters" />
     </option>

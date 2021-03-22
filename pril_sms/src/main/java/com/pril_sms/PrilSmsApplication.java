@@ -1,34 +1,29 @@
-package com.pril_admin;
+package com.pril_sms;
 
 import org.springframework.amqp.rabbit.annotation.EnableRabbit;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cache.annotation.EnableCaching;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.transaction.annotation.EnableTransactionManagement;
-import springfox.documentation.oas.annotations.EnableOpenApi;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
-@EnableTransactionManagement
-@SpringBootApplication
-@EnableOpenApi
+@EnableScheduling
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 @EnableDiscoveryClient
-@EnableCaching
 @EnableRabbit
 @EnableFeignClients("com.pril_common.feign")
 @ComponentScan(basePackages = {
-        "com.pril_common.config",
-        "com.pril_common.fallback",
         "com.pril_utils",
-        "com.pril_admin",
-        "com.pril_xo.utils",
-        "com.pril_xo.service"
+        "com.pril_common.config.feign",
+        "com.pril_common.fallback",
+        "com.pril_sms",
 })
-public class PrilAdminApplication {
+public class PrilSmsApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PrilAdminApplication.class, args);
+        SpringApplication.run(PrilSmsApplication.class, args);
     }
 
 }
