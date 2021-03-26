@@ -90,6 +90,7 @@ public class HandlerExceptionResolver implements org.springframework.web.servlet
         } catch (Exception e) {
             log.error("响应输出失败！原因如下：", e);
         }
+        //返回的是什么 在配置文件内？
         return new ModelAndView();
     }
 }

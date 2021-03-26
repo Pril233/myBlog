@@ -26,6 +26,15 @@
             <artifactId>junit</artifactId>
             <version>${junit.version}</version>
         </dependency> -->
+        <!--流量监控-->
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-web-servlet</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-parameter-flow-control</artifactId>
+        </dependency>
 
 
     </dependencies>

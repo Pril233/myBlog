@@ -7,11 +7,12 @@
         <artifactId>pril_blog</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+
     <groupId>com.pril</groupId>
-    <artifactId>pril_sms</artifactId>
+    <artifactId>pril_picture</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>pril_sms</name>
-    <description>消息服务，用于更新ElasticSearch、Solr索引、邮件和短信发送</description>
+    <name>pril_picture</name>
+    <description>图片服务</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -34,54 +35,38 @@
         </dependency>
 
         <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
+            <version>${startFeign.version}</version>
+        </dependency>
+
+        <!-- 引入minio依赖，用于文件上传服务-->
+        <dependency>
+            <groupId>io.minio</groupId>
+            <artifactId>minio</artifactId>
+            <version>${minio.version}</version>
+        </dependency>
+
+        <!--用于File转MultipartFile-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-mock</artifactId>
+            <version>${spring.mock.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+            <groupId>com.qiniu</groupId>
+            <artifactId>qiniu-java-sdk</artifactId>
+            <version>${qiniu.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpcore</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>de.codecentric</groupId>
-            <artifactId>spring-boot-admin-starter-client</artifactId>
-            <version>${springBootAdmin.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <version>${servlet.api.version}</version>
-        </dependency>
-
-        <!--springboot整合rabbitmq-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-amqp</artifactId>
-        </dependency>
-
-        <!--发送邮件-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-mail</artifactId>
-        </dependency>
-
-        <!--阿里云发送短信-->
-        <dependency>
-            <groupId>com.aliyun</groupId>
-            <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
-            <version>${aliyun.java.sdk.dysmsapi.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.aliyun</groupId>
-            <artifactId>aliyun-java-sdk-core</artifactId>
-            <version>${aliyun.java.sdk.core.version}</version>
-        </dependency>
     </dependencies>
 
-    <!--<build>
+  <!--  <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

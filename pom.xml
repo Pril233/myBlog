@@ -34,6 +34,7 @@
         <module>pril_utils</module>
         <module>pril_sms</module>
         <module>pril_gateway</module>
+        <module>pril_picture</module>
     </modules>
 
 
@@ -52,15 +53,17 @@
         <aliyun.java.sdk.core.version>3.2.5</aliyun.java.sdk.core.version>
         <druid.version>1.1.8</druid.version>
         <!--<eureka.version>1.2.3.RELEASE</eureka.version>-->
-        <!--<startFeign.version>1.4.7.RELEASE</startFeign.version>-->
-        <!--<qiniu.version>[7.2.0, 7.2.99]</qiniu.version>-->
+        <startFeign.version>1.4.7.RELEASE</startFeign.version>
+        <qiniu.version>[7.2.0, 7.2.99]</qiniu.version>
         <springBootAdmin.version>2.2.1</springBootAdmin.version>
         <!--<JustAuth.version>1.15.1</JustAuth.version>-->
         <!--<dyuproject.version>1.1.5</dyuproject.version>-->
         <!--<freemarker.version>2.3.28</freemarker.version>-->
         <!--<jaxb.version>2.3.0</jaxb.version>-->
-        <!--<minio.version>7.1.4</minio.version>-->
-        <!--<spring.mock.version>2.0.8</spring.mock.version>-->
+        <!-- 引入minio依赖，用于文件上传服务-->
+        <minio.version>7.1.4</minio.version>
+        <!--用于File转MultipartFile-->
+        <spring.mock.version>2.0.8</spring.mock.version>
         <knife4j.version>3.0.2</knife4j.version>
         <!--<sentinel.version>2.1.0.RELEASE</sentinel.version>-->
 

@@ -11,6 +11,7 @@
         <module name="pril_base" />
         <module name="pril_common" />
         <module name="pril_gateway" />
+        <module name="pril_picture" />
         <module name="pril_sms" />
         <module name="pril_utils" />
         <module name="pril_xo" />
@@ -25,6 +26,7 @@
       <module name="pril_blog" options="-parameters" />
       <module name="pril_common" options="-parameters" />
       <module name="pril_gateway" options="-parameters" />
+      <module name="pril_picture" options="-parameters" />
       <module name="pril_sms" options="-parameters" />
       <module name="pril_utils" options="-parameters" />
       <module name="pril_xo" options="-parameters" />
