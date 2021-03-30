@@ -16,7 +16,7 @@ import java.util.List;
 
 
 @Configuration
-class Swagger3Config {
+class   Swagger3Config {
     @Bean
     public Docket createRestApi() {
         return new Docket(DocumentationType.OAS_30).
