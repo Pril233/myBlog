@@ -14,6 +14,7 @@
         <module name="pril_picture" />
         <module name="pril_sms" />
         <module name="pril_utils" />
+        <module name="pril_web" />
         <module name="pril_xo" />
       </profile>
     </annotationProcessing>
@@ -29,6 +30,7 @@
       <module name="pril_picture" options="-parameters" />
       <module name="pril_sms" options="-parameters" />
       <module name="pril_utils" options="-parameters" />
+      <module name="pril_web" options="-parameters" />
       <module name="pril_xo" options="-parameters" />
     </option>
   </component>

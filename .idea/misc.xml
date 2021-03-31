@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/pril_sms/pom.xml" />
         <option value="$PROJECT_DIR$/pril_gateway/pom.xml" />
         <option value="$PROJECT_DIR$/pril_picture/pom.xml" />
+        <option value="$PROJECT_DIR$/pril_web/pom.xml" />
       </list>
     </option>
   </component>
